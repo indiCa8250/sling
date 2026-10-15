@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Sling app icon</title>
+  <desc id="desc">A full-bleed light-blue Sling app icon with a stylized sling mark.</desc>
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(690 300) rotate(125) scale(570)">
+      <stop stop-color="#FF5D9E" stop-opacity=".86"/>
+      <stop offset=".38" stop-color="#8A46FF" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#8A46FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="278" y1="233" x2="765" y2="807" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B9F8FF"/>
+      <stop offset=".45" stop-color="#72E5FF"/>
+      <stop offset="1" stop-color="#4EAFFF"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="270" y1="240" x2="760" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020611" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#020611" stop-opacity=".72"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <!-- Full-bleed background: intentionally no border or white margin. -->
+  <rect width="1024" height="1024" fill="#111936"/>
+  <path d="M0 0H1024V590C820 470 600 444 390 530C220 599 101 557 0 490Z" fill="#2B155A" opacity=".88"/>
+  <path d="M0 1024V805C180 696 365 687 539 756C713 825 861 801 1024 687V1024Z" fill="#09101F" opacity=".8"/>
+  <circle cx="800" cy="226" r="300" fill="#E84393" opacity=".18"/>
+  <circle cx="178" cy="870" r="220" fill="#1B8DFF" opacity=".32"/>
+
+  <!-- Flash-art energy strokes. -->
+  <path d="M70 680 C250 590 290 450 385 310" fill="none" stroke="#63F4FF" stroke-width="10" stroke-linecap="round" opacity=".3" filter="url(#soft)"/>
+  <path d="M850 70 C765 177 752 238 748 330" fill="none" stroke="#FF6EAF" stroke-width="9" stroke-linecap="round" opacity=".55" filter="url(#soft)"/>
+  <path d="M720 910 C817 842 871 773 912 661" fill="none" stroke="#FFD96A" stroke-width="8" stroke-linecap="round" opacity=".38" filter="url(#soft)"/>
+
+  <!-- Enlarged stylized sling / S mark. -->
+  <g transform="translate(-230 -230) scale(1.45)">
+  <path d="M715 245 C611 185 410 188 318 302 C246 392 275 491 390 530 L622 609 C699 636 700 701 643 739 C571 787 407 789 300 716"
+        fill="none" stroke="#050A18" stroke-width="120" stroke-linecap="round" stroke-linejoin="round" opacity=".22" transform="translate(9 17)"/>
+  <path d="M715 245 C611 185 410 188 318 302 C246 392 275 491 390 530 L622 609 C699 636 700 701 643 739 C571 787 407 789 300 716"
+        fill="none" stroke="#72E5FF" stroke-width="92" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sling fork and projectile accent. -->
+  <path d="M718 245 L780 164 M718 245 L815 268" fill="none" stroke="#EFFFFF" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M718 245 L780 164 M718 245 L815 268" fill="none" stroke="#62EFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".75"/>
+  <circle cx="843" cy="294" r="22" fill="#FFDD6E"/>
+  <circle cx="843" cy="294" r="42" fill="none" stroke="#FFDD6E" stroke-width="4" opacity=".28"/>
+  </g>
+
+  <!-- Minimal wordmark integrated for splash art; safe-zone friendly. -->
+  <text x="512" y="895" text-anchor="middle" fill="#F6FAFF" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" letter-spacing="1">SLING</text>
+  <text x="512" y="945" text-anchor="middle" fill="#A9B8D6" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2">TRACK • MOVE • GROW</text>
+</svg>
